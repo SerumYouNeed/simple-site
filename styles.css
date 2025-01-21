@@ -55,9 +55,57 @@ a {
 }
 
 /* MAIN */
+.main-content {
+    display: flex;
+}
+
+.log-btn {
+    width: 200px;
+    height: 30px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    min-width: 300px;
+    text-align: center;
+    gap: 20px;
+}
+
+.par {
+    text-align: center;
+    font-size: 36px;
+}
+
+.lower-par {
+    text-align: center;
+    font-size: 36px;
+}
+
 .silhouette {
     border: solid #3882F6 5px;
     border-radius: 15px;
     padding: 10px;
     width: 80px;
+}
+
+.check-us {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 20px;
+    font-size: 36px;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 25px;
 }
